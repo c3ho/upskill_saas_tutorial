@@ -42,7 +42,19 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
-//
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #134E5E;
+  }
+}
+
+
+//Homepage styles
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a  {
   color: white;
