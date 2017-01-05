@@ -48,6 +48,7 @@ h1, h2, h3 {
 
 .navbar-default .navbar-toggle {
   border: 2px solid white;
+  //Only works with SASS
   &:hover, &:focus {
     background-color: #134E5E;
   }
